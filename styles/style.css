@@ -182,6 +182,10 @@ ul {
    .last-content-1{
     width: 485px;
     height: 317px;
+    
+   }
+   .last-content-1 a{
+    text-decoration: none;
    }
    .last-header-1{
     font-weight: 700;
