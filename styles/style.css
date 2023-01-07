@@ -1,0 +1,257 @@
+
+                    /* Universal area */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+                        /* header section */
+
+.header{
+    background-image: url('/images/banner/banner1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.position-right{
+    text-align: right;
+}
+.header-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    width: 525px;
+    height: 228px;
+    padding-left: 700px;
+    padding-top: 150px;
+}
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 725px;
+    width: 494px;
+    height: 78px;
+    color: #444343;
+}
+.header-btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #fd6e0a; 
+}
+
+                            /* header area end */
+
+                            /* hear is my My failures */
+
+.parent{
+    display: flex;
+    
+}
+.child-1{
+    width: 569px;
+    height: 723.3px;
+    margin-left: 206px;
+    margin-top: 131px;
+    margin-bottom: 130px;
+}
+.child-header{
+    color: #151414;
+    font-weight: 700;
+     font-size: 30px;
+    margin: 390px 416px 24px 76px;
+}
+.child-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #444343;
+    margin: 24px 333px 16px 76px;
+}
+.list-item{
+    width: 349px;
+    height: 162px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #444343;
+    margin: 16px 400px 0px 76px;
+}
+ul {
+    list-style: none;
+   }
+    ul li:before {
+    content: '✓';
+    color: #1eff00;
+   }
+
+                        /* failures area end */
+
+                        /* The skills I want to learn */
+
+   .position-center{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+   }
+   .skill-container{
+    text-align: center;
+    width: 1141px;
+    height: 299.96px;
+    display: flex;
+    margin-left: 180px; 
+   }
+   .my-plan{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+   }
+   .skill{
+    padding: 55px;
+   } 
+   .skill-name{
+    font-weight: 600;
+    font-size: 20px;
+    color: #151414;
+   }
+   .skill-description{
+    font-weight: 400;
+    font-size: 15px;
+    color: #737272;
+   }
+
+                         /* skill part ene */
+
+                         /* bg-liner-gradient area */
+
+   .bg-liner-gradient{
+    width: 1000px;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png'); 
+     border-radius: 10px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 189px;
+   }
+   .in-position{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 47px;
+    padding-top: 35px;
+    width: 459px;
+    height: 94px;
+   }
+   .btn-secondary{
+    margin-left: 65px;
+    margin-top: 43px;
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+   }
+
+                            /* bg-liner-gradient end */
+
+                            /* footer area start */
+
+   .end-part{
+    display: flex;
+    gap: 200px;
+    
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    padding-left: 230px;
+   }
+   .last-content-1{
+    width: 485px;
+    height: 317px;
+   }
+   .last-header-1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+   }
+   .last-para{
+    color: #FFFFFF;
+    width: 485px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 14px;
+   }
+   .contact-1{
+    color: #FFFFFF;
+    width: 184px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    }
+   .contact-2{
+    color: #FFFFFF;
+    width: 186px;
+    height: 26px;
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 32px;
+   }
+   .input{
+    padding-top: 130px;
+    padding-right: 221px;
+    width: 325px;
+    height: 204px;
+   }
+   .subscribe{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    width: 123px;
+    height: 29px;
+    padding-bottom: 30px;
+   }
+   .enter-your-mail{
+    width: 325px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    background-color: #151414;
+    text-align: justify;
+    padding-left: 21px;
+   }
+   .subscribe-btn{
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-top: 16px;
+   }
+
+
+                                    /* complete */
+   
